@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# Ignore virtual environment
+venv/
+__pycache__/
 # C extensions
 *.so
 
