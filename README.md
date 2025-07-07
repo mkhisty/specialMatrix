@@ -6,18 +6,18 @@ The C++ has already been built and is ready to use in the test folder with examp
 
 ```bash
 
-$ python3 test.py
+➜  test git:(main) python3 test.py
 /usr/lib/python3/dist-packages/numpy/linalg/linalg.py:2180: RuntimeWarning: overflow encountered in det
-  r = umath_linalg.det(a, signature=signature)
+  r = _umath_linalg.det(a, signature=signature)
 Multiplication Accuracy:  1.0
-Average SM Multiplication time:  0.008987155424238889
-Average NP Multiplication time:  0.1927241227373786
+Average specialmatrix Multiplication time:  0.011118460414157502
+Average numpy Multiplication time:  0.23537075683844072
 Determinant Accuracy:  1.0
-Average SM Determinant time:  0.008878118040380892
-Average NP Determinant time:  0.05779320853536425
+Average specialmatrix Determinant time:  0.01186529779798465
+Average numpy Determinant time:  0.07348385917173966
 Inverse Accuracy:  1.0
-Average SM Inverse time:  0.03591465654544939
-Average NP Inverse time:  0.06441826532325723
+Average specialmatrix Inverse time:  0.04403484937367209
+Average numpy Inverse time:  0.08273912898991025
 
 ```
 
