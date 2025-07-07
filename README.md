@@ -17,7 +17,9 @@ Average NP Determinant time:  0.05779320853536425
 Inverse Accuracy:  1.0
 Average SM Inverse time:  0.03591465654544939
 Average NP Inverse time:  0.06441826532325723
+
 ```
+
 
 In test.py, the n and d values have been chosen such that they prove the advantage of the specialMatrix library without taking up too much time. On different devices, they may need changing because for smaller matrices NumPy is still faster due to it utilizing the highly optimized LAPACK functions, while I made my own functions for the sake of learning.
 

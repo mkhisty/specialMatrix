@@ -57,11 +57,11 @@ for _ in range(1, ITER):
             totalInverseCorrect += 1
 
 print("Multiplication Accuracy: ", totalMultiplyCorrect / (ITER - 1))
-print("Average SM Multiplication time: ", totalMultiplyTimeSM / (ITER - 1))
-print("Average NP Multiplication time: ", totalMultiplyTimeNM / (ITER - 1))
+print("Average specialmatrix Multiplication time: ", totalMultiplyTimeSM / (ITER - 1))
+print("Average numpy Multiplication time: ", totalMultiplyTimeNM / (ITER - 1))
 print("Determinant Accuracy: ", totalDeterminantCorrect / (ITER - 1))
-print("Average SM Determinant time: ", totalDeterminantTimeSM / (ITER - 1))
-print("Average NP Determinant time: ", totalDeterminantTimeNM / (ITER - 1))
+print("Average specialmatrix Determinant time: ", totalDeterminantTimeSM / (ITER - 1))
+print("Average numpy Determinant time: ", totalDeterminantTimeNM / (ITER - 1))
 print("Inverse Accuracy: ", totalInverseCorrect / totalInverses)
-print("Average SM Inverse time: ", totalInverseTimeSM / totalInverses)
-print("Average NP Inverse time: ", totalInverseTimeNM / totalInverses)
+print("Average specialmatrix Inverse time: ", totalInverseTimeSM / totalInverses)
+print("Average numpy Inverse time: ", totalInverseTimeNM / totalInverses)
